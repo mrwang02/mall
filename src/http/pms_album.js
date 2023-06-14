@@ -2,7 +2,7 @@ import instance from "./axios";
 const userLogin=(data)=>{
     //返回Promise对象
     return instance.request({
-        url:'http://mall.qzimp.cn/doc.html', //url=baseUrl+url,
+        url:'https://mall.qzimp.cn/doc.html', //url=baseUrl+url,
         method:'post',
         data,
         headers:{
