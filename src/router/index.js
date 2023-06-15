@@ -26,12 +26,12 @@ import show from "@/views/static/show.vue"
 //路由表
 const routes = [
     {
-        path: '/',//访问路径 http://127.0.0.1:5173/cx/XfDGdOkjVo7deIxQjurcf8BEnNf 
+        path: '/home',//访问路径 http://127.0.0.1:5173/cx/XfDGdOkjVo7deIxQjurcf8BEnNf 
         name: 'home', //命名路由
         component: Index,   //key:value  默认//页面组件 components 普通组件 页面组件和普通组件是一对多
     },
     {
-        path: '/show',
+        path: '/',
         name: 'show',
         component: show,
     },
